@@ -12,12 +12,16 @@ function Chart() {
       containerComponent={ <VictoryContainer responsive={ false }/> }
       width={ 800 }
       height={ 800 }>
-      <VictoryLegend x={ 200 } y={ 50 }
+      <VictoryLegend x={ 250 } y={ 50 }
                      orientation="horizontal"
                      gutter={ 20 }
                      itemsPerRow={ 3 }
                      data={ [ {
                        name: 'Graph of a function', symbol: { fill: 'd00f50' }, labels: { fill: 'd00f50' }
+                     }, {
+                       name: 'Approximate solution (d1 = h^2)', symbol: { fill: '0f3fd0' }, labels: { fill: '0f3fd0' }
+                     }, {
+                       name: 'Approximate solution (d1 = 0)', symbol: { fill: '0fd022' }, labels: { fill: '0fd022' }
                      } ] }
       />
       <VictoryLine data={ func }

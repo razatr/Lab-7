@@ -7,4 +7,4 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 ### `yarn run deploy`
 
-Deploy the app on [https://razatr.github.io/lab6/](https://razatr.github.io/lab6/)
+Deploy the app on [https://razatr.github.io/Lab-7/](https://razatr.github.io/Lab-7/)
